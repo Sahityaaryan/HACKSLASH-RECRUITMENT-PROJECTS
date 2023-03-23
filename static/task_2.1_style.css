@@ -1,0 +1,105 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* top: 2rem; */
+    padding-top: 3.4rem;
+    padding-right: 1rem;
+    position: relative;
+    top: 10rem;
+    margin: auto;
+    width: 35rem;
+    height: 35rem;
+    background-color: rgb(246, 192, 246);
+}
+
+.circle{
+    width: 23rem;
+    height: 23rem;
+    background-color: white;
+    border: 0.1rem solid white;
+    border-radius: 50%;
+    /* position: center; */
+    position: relative;
+    top: 3rem;
+    /* left: .3rem; */
+    right: 5.5rem;
+}
+
+
+
+                    /* BUTTON SECTION */
+.btn{
+    width: 6rem;
+    height: 5rem;
+    /* font-size: 22rem; */
+    background-color: red;
+    background-image: url(arrow.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    border: 0.01rem solid black;
+    position: absolute;
+    top:25rem;
+}
+#bt_right{
+    right: 30rem;
+    transform: rotate(180deg);
+}
+#bt_left{
+    left: 30rem;
+}
+
+                                    /* NOTATIONS AT THE BOXES */
+
+.one{
+
+    position: relative;
+    /* right: 3rem; */
+    /* top: 26rem; */
+    bottom: 1.4rem;
+    font-size: 4rem;
+    color:red;
+    text-shadow: 0.1rem, 0.1rem ;
+}
+.two{
+    position: relative;
+    right: 2rem;
+    top: 26rem;
+    /* transform: rotate(90deg); */
+    font-size: 4rem;
+    color:red;
+    text-shadow: 0.1rem, 0.1rem ;
+}
+.three{
+    position: relative;
+    left: 25rem;
+
+    top: 26rem;
+    font-size: 4rem;
+    color:red;
+    text-shadow: 0.1rem, 0.1rem ;
+}
+.four{
+    position: relative;
+    left: 23rem;
+    bottom: 1.7rem;
+    /* top: 26rem; */
+    font-size: 4rem;
+    color:red;
+    text-shadow: 0.1rem, 0.1rem ;
+}
+                                        /* logo */
+.logo{
+    position: relative;
+    top: 5.2rem;
+}
